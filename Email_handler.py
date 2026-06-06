@@ -1,7 +1,7 @@
 import gmail
 
 def send_credentials(email,name,acn,pwd):
-     con=gmail.GMail("rishabhvermarishabhverma034@gmail.com","uotq odck yrhi sncc")
+     con=gmail.GMail("rishabhvermarishabhverma034@gmail.com","xgvc xfxj zuvq xgoo")
      body=f'''
      Hello {name},
      Welcome to ABC Bank,here is your credentials
