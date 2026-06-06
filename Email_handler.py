@@ -17,7 +17,7 @@ def send_credentials(email,name,acn,pwd):
      
 
 def send_otp(email,name,otp):
-     con=gmail.GMail("rishabhvermarishabhverma034@gmail.com","uotq odck yrhi sncc")
+     con=gmail.GMail("rishabhvermarishabhverma034@gmail.com","xgvc xfxj zuvq xgoo")
      body=f'''
      Hello {name},
      Welcome to ABC Bank,here is your otp to recover password
@@ -29,7 +29,7 @@ def send_otp(email,name,otp):
      con.send(msg)
      
 def send_otp_withdraw(email,name,otp,amt):
-     con=gmail.GMail("rishabhvermarishabhverma034@gmail.com","uotq odck yrhi sncc")
+     con=gmail.GMail("rishabhvermarishabhverma034@gmail.com","xgvc xfxj zuvq xgoo")
      body=f'''
      Hello {name},
      Welcome to ABC Bank,here is your otp to withdraw {amt} 
@@ -41,7 +41,7 @@ def send_otp_withdraw(email,name,otp,amt):
      con.send(msg)
      
 def send_otp_transfer(email,name,otp,amt,to_acn):
-     con=gmail.GMail("rishabhvermarishabhverma034@gmail.com","uotq odck yrhi sncc")
+     con=gmail.GMail("rishabhvermarishabhverma034@gmail.com","xgvc xfxj zuvq xgoo")
      body=f'''
      Hello {name},
      Welcome to ABC Bank,here is your otp to transfer amount: {amt} to ACN:{to_acn}
